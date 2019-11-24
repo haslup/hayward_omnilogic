@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Request xmlns="http://nextgen.hayward.com/api">
+  <Name>SetUIEquipmentCmd</Name>
+  <Parameters>
+    <Parameter name="Token" dataType="String">{tokenid}</Parameter>
+    <Parameter name="MspSystemID" dataType="int">{systemid}</Parameter>
+    <Parameter name="PoolID" dataType="int">1</Parameter>
+    <Parameter name="EquipmentId" dataType="int">2</Parameter>
+    <Parameter name="IsOn" dataType="int">{filter_speed}</Parameter>
+    <Parameter name="IsCountDownTimer" dataType="bool">false</Parameter>
+    <Parameter name="StartTimeHours" dataType="int">0</Parameter>
+    <Parameter name="StartTimeMinutes" dataType="int">0</Parameter>
+    <Parameter name="EndTimeHours" dataType="int">0</Parameter>
+    <Parameter name="EndTimeMinutes" dataType="int">0</Parameter>
+    <Parameter name="DaysActive" dataType="int">0</Parameter>
+    <Parameter name="Recurring" dataType="bool">false</Parameter>
+  </Parameters>
+</Request>

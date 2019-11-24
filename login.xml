@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Request xmlns="http://nextgen.hayward.com/api">
+  <Name>Login</Name>
+  <Paramenters>
+    <Parameter name="UserName" dataType="String">{username}</Parameter>
+    <Parameter name="Password" dataType="String">{password}</Parameter>
+  </Paramenters>
+</Request>
