@@ -4,7 +4,6 @@ import xmltodict
 
 
 class HaywardOmniLogic():
-
     requests_templates = {'login': None,
                           'status': None,
                           'group_cmd': None,
@@ -21,7 +20,6 @@ class HaywardOmniLogic():
               '16': 'bubbler_group'}
 
     def __init__(self, username, password, systemid, verbose=False):
-
         self.username = username
         self.password = password
         self.systemid = systemid
